@@ -1,7 +1,7 @@
 import axios from "axios";
 import { plainToClass } from "class-transformer";
 import { stringify } from "querystring";
-import { AuthenticationDTO } from "./dto/authenticationDTO";
+import { AuthenticationDTO } from "./obj/authenticationDTO";
 
 export class Authentication {
   static async getToken(service: any): Promise<AuthenticationDTO> {
